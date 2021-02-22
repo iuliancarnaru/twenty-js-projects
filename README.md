@@ -1,4 +1,4 @@
-Modern HTML5, CSS3, and JavaScript (Responsive and Mobile Friendly) projects
+# Modern HTML5, CSS3, and JavaScript (Responsive and Mobile Friendly) projects
 
     1.Spock Rock Game - Confetti.js, Modules
     2.Quote Generator - Fetch, Async/Await, Quote API, CORS
@@ -21,4 +21,3 @@ Modern HTML5, CSS3, and JavaScript (Responsive and Mobile Friendly) projects
     18.Math Sprint Game - SetInterval, DOM, Array Methods, localStorage
     19.Animated Template - Template, AOS.js
     20.Drag and Drop - Drag and Drop API, localStorage
-    
