@@ -3,7 +3,8 @@
     1.Spock Rock Game - Confetti.js, Modules
 
     2.Quote Generator - Fetch, Async/Await, Quote API, CORS
-    ![alt text](https://github.com/iuliancarnaru/twenty-js-projects/blob/main/quote-generator/assets/Screenshot%202021-02-22%20at%2021.37.31.png "Main page")
+
+![alt text](https://github.com/iuliancarnaru/twenty-js-projects/blob/main/quote-generator/assets/Screenshot%202021-02-22%20at%2021.37.31.png 'Main page')
 
     3.Picture-in-Picture - Picture-in-Picture API, Screen Capture API
 
