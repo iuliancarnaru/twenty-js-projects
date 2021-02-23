@@ -4,7 +4,7 @@
 
     2.Quote Generator - Fetch, Async/Await, Quote API, CORS
 
-![alt text](https://github.com/iuliancarnaru/twenty-js-projects/blob/main/quote-generator/assets/Screenshot%202021-02-22%20at%2021.37.31.png 'Main page')
+![Quote Generator](https://github.com/iuliancarnaru/twenty-js-projects/blob/main/quote-generator/assets/Screenshot%202021-02-22%20at%2021.37.31.png 'Snapshot')
 
     3.Picture-in-Picture - Picture-in-Picture API, Screen Capture API
 
@@ -16,7 +16,7 @@
 
     7.Infinite Scroll - Fetch, Async/Await, Unsplash API, DOM, Scroll Event Listener
 
-![alt text](https://github.com/iuliancarnaru/twenty-js-projects/blob/main/infinite-scroll/assets/snapshot/Screenshot%202021-02-23%20at%2008.44.44.png 'Main page')
+![Infinite Scroll](https://github.com/iuliancarnaru/twenty-js-projects/blob/main/infinite-scroll/assets/snapshot/Screenshot%202021-02-23%20at%2013.33.47.png 'Snapshot')
 
     8.Countdown App - Date, localStorage
 
