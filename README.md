@@ -8,6 +8,8 @@
 
     3.Picture-in-Picture - Picture-in-Picture API, Screen Capture API
 
+![Picture-in-Picture](https://github.com/iuliancarnaru/twenty-js-projects/blob/main/picture-in-picture/assets/Screenshot%202021-02-23%20at%2015.57.47.png 'Snapshot')
+
     4.Bookmarks App - DOM, localStorage
 
     5.NASA APOD - Fetch, Async/Await, NASA API, DOM, localStorage
