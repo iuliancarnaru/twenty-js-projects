@@ -16,6 +16,8 @@
 
     7.Infinite Scroll - Fetch, Async/Await, Unsplash API, DOM, Scroll Event Listener
 
+![alt text](https://github.com/iuliancarnaru/twenty-js-projects/blob/main/infinite-scroll/assets/snapshot/Screenshot%202021-02-23%20at%2008.44.44.png 'Main page')
+
     8.Countdown App - Date, localStorage
 
     9.Music Player - HTML 5 Audio API
