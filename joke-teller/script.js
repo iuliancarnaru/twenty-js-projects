@@ -112,9 +112,11 @@ function toggleButton() {
 
 // passing our joke to voice RSS
 function tellMeJoke(joke) {
+  const jokeString = joke.trim().replace(/ /g, '%20');
+
   VoiceRSS.speech({
     key: '96e30a38ef1344a79d031c0f8d70bcd5',
-    src: joke,
+    src: jokeString,
     hl: 'en-us',
     v: 'Linda',
     r: 0,
