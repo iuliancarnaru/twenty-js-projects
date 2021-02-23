@@ -34,6 +34,8 @@
 
     14.Joke Teller - Fetch, Async/Await, Joke API, Text-to-Speech
 
+![Joke Teller](https://github.com/iuliancarnaru/twenty-js-projects/blob/main/joke-teller/assets/Screenshot%202021-02-23%20at%2021.44.04.png 'Snapshot')
+
     15.Video Player - HTML 5 Video API
 
     16.MS Paint Clone - Advanced HTML Canvas, localStorage
