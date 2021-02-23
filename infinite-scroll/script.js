@@ -5,12 +5,16 @@ let photos = [];
 let ready = false;
 let totalImages = 0;
 let imagesLoaded = 0;
+let isInitialLoad = true;
 
-const count = 30;
+let count = 5;
 // replace this with your working unsplash api kei
-const API_KEY = 'UNSPLASH_API_KEY';
+const API_KEY = 'your_own_api_key';
+let apiUrl = `https://api.unsplash.com/photos/random/?count=${count}&client_id=${API_KEY}`;
 
-const API_URL = `https://api.unsplash.com/photos/random/?count=${count}&client_id=${API_KEY}`;
+function updateAPIURLWithNewCount(picCount) {
+  apiUrl = `https://api.unsplash.com/photos/random/?count=${picCount}&client_id=${API_KEY}`;
+}
 
 function imageLoaded() {
   imagesLoaded++;
@@ -64,10 +68,14 @@ function displayPhotos() {
 // get photos form API
 async function getPhotos() {
   try {
-    const response = await fetch(API_URL);
+    const response = await fetch(apiUrl);
     const data = await response.json();
     photos = [...data];
     displayPhotos();
+    if (isInitialLoad) {
+      updateAPIURLWithNewCount(30);
+      isInitialLoad = false;
+    }
   } catch (error) {
     console.log('Unable to fetch data', error);
   }
