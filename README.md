@@ -30,6 +30,8 @@
 
     12.Light/Dark Mode - DOM, localStorage
 
+![Light/Dark Mode](https://github.com/iuliancarnaru/twenty-js-projects/blob/main/light-dark-mode/assets/Screenshot%202021-02-24%20at%2015.54.28.png 'Snapshot')
+
     13.Form Validation - DOM, Forms
 
     14.Joke Teller - Fetch, Async/Await, Joke API, Text-to-Speech
