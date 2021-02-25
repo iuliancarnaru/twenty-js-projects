@@ -26,6 +26,8 @@
 
     9.Music Player - HTML 5 Audio API
 
+![Music Player](https://github.com/iuliancarnaru/twenty-js-projects/blob/main/music-player/assets/Screenshot%202021-02-25%20at%2016.52.53.png 'Snapshot')
+
     10.Calculator - Math Methods
 
     11.Splash Page - DOM Basics
