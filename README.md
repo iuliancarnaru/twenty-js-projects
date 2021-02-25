@@ -48,4 +48,6 @@
 
     19.Animated Template - Template, AOS.js
 
+![Animated Template](https://github.com/iuliancarnaru/twenty-js-projects/blob/main/animated-template/assets/Screenshot%202021-02-25%20at%2011.19.41.png 'Snapshot')
+
     20.Drag and Drop - Drag and Drop API, localStorage
