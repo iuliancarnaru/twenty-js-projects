@@ -16,6 +16,8 @@
 
     6.Animated Navigation - CSS Animations
 
+![Animated Navigation](https://github.com/iuliancarnaru/twenty-js-projects/blob/main/navigation-nation/assets/Screenshot%202021-02-25%20at%2015.49.45.png 'Snapshot')
+
     7.Infinite Scroll - Fetch, Async/Await, Unsplash API, DOM, Scroll Event Listener
 
 ![Infinite Scroll](https://github.com/iuliancarnaru/twenty-js-projects/blob/main/infinite-scroll/assets/snapshot/Screenshot%202021-02-23%20at%2013.33.47.png 'Snapshot')
