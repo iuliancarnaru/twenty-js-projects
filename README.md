@@ -24,6 +24,8 @@
 
     8.Countdown App - Date, localStorage
 
+![Countdown App](https://github.com/iuliancarnaru/twenty-js-projects/blob/main/custom-countdown/assets/Screenshot%202021-02-26%20at%2013.44.36.png 'Snapshot')
+
     9.Music Player - HTML 5 Audio API
 
 ![Music Player](https://github.com/iuliancarnaru/twenty-js-projects/blob/main/music-player/assets/Screenshot%202021-02-25%20at%2016.52.53.png 'Snapshot')
