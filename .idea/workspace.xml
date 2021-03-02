@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5321493-332a-4eb3-be7e-798df5a10eb1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/custom-countdown/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/custom-countdown/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/custom-countdown/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/custom-countdown/script.js" afterDir="false" />
@@ -55,7 +54,7 @@
       <option name="presentableId" value="Default" />
       <updated>1614717550721</updated>
       <workItem from="1614717552590" duration="223000" />
-      <workItem from="1614717831496" duration="2655000" />
+      <workItem from="1614717831496" duration="4380000" />
     </task>
     <servers />
   </component>
