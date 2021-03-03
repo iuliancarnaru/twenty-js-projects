@@ -12,6 +12,9 @@
 
     4.Bookmarks App - DOM, localStorage
 
+![Bookmarks App](https://github.com/iuliancarnaru/twenty-js-projects/blob/main/bookmark-keeper/assets/Screenshot%202021-03-03%20at%2022.55.49.png 'Snapshot')
+![Bookmarks App](https://github.com/iuliancarnaru/twenty-js-projects/blob/main/bookmark-keeper/assets/Screenshot%202021-03-03%20at%2022.56.02.png 'Snapshot2')
+
     5.NASA APOD - Fetch, Async/Await, NASA API, DOM, localStorage
 
     6.Animated Navigation - CSS Animations
