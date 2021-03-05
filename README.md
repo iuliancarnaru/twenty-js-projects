@@ -51,6 +51,8 @@
 
     15.Video Player - HTML 5 Video API
 
+![Video Player](https://github.com/iuliancarnaru/twenty-js-projects/blob/main/video-player/assets/Screenshot%202021-03-05%20at%2018.29.45.png 'Snapshot')
+
     16.MS Paint Clone - Advanced HTML Canvas, localStorage
 
     17.Pong Clone - Advanced HTML Canvas
