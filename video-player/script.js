@@ -43,7 +43,27 @@ function updateProgress() {
   duration.textContent = `${displayTime(video.duration)}`;
 }
 
+function setProgress(event) {
+  const newTime = event.offsetX / progressRange.offsetWidth;
+  progressBar.style.width = `${newTime * 100}%`;
+  video.currentTime = newTime * video.duration;
+}
+
 // Volume Controls --------------------------- //
+function changeVolume(event) {
+  let volume = event.offsetX / volumeRange.offsetWidth;
+
+  if (volume < 0.1) {
+    volume = 0;
+  }
+
+  if (volume > 0.9) {
+    volume = 1;
+  }
+
+  volumeBar.style.width = `${volume * 100}%`;
+  video.volume = volume;
+}
 
 // Change Playback Speed -------------------- //
 
@@ -54,3 +74,5 @@ playBtn.addEventListener('click', togglePlay);
 video.addEventListener('click', togglePlay);
 video.addEventListener('timeupdate', updateProgress);
 video.addEventListener('canplay', updateProgress);
+progressRange.addEventListener('click', setProgress);
+volumeRange.addEventListener('click', changeVolume);
