@@ -45,6 +45,10 @@
 
     13.Form Validation - DOM, Forms
 
+![Form Validation](https://github.com/iuliancarnaru/twenty-js-projects/blob/main/form-validator/assets/Screenshot%202021-03-06%20at%2016.54.57.png 'Snapshot')
+![Form Validation](https://github.com/iuliancarnaru/twenty-js-projects/blob/main/form-validator/assets/Screenshot%202021-03-06%20at%2017.05.22.png 'Snapshot')
+![Form Validation](https://github.com/iuliancarnaru/twenty-js-projects/blob/main/form-validator/assets/Screenshot%202021-03-06%20at%2017.08.15.png 'Snapshot')
+
     14.Joke Teller - Fetch, Async/Await, Joke API, Text-to-Speech
 
 ![Joke Teller](https://github.com/iuliancarnaru/twenty-js-projects/blob/main/joke-teller/assets/Screenshot%202021-02-23%20at%2021.44.04.png 'Snapshot')
