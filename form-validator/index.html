@@ -11,12 +11,14 @@
   <body>
     <div class="container">
       <h1>Sign Up Today!</h1>
+      <!-- novalidate to disable default HTML5 validation -->
       <form id="form">
         <div class="form-group">
           <label for="name">Full name</label>
           <input
             type="text"
             id="name"
+            name="name"
             placeholder="Full name"
             required
             minlength="3"
@@ -28,6 +30,7 @@
           <input
             type="tel"
             id="phone"
+            name="phone"
             placeholder="555-555-5555"
             required
             pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
@@ -38,6 +41,7 @@
           <input
             type="email"
             id="email"
+            name="email"
             placeholder="email@address.com"
             required
           />
@@ -47,6 +51,7 @@
           <input
             type="url"
             id="website"
+            name="website"
             placeholder="https://yourwebsiteadress.com"
             required
           />
@@ -67,6 +72,7 @@
           <input
             type="password"
             id="password2"
+            name="password"
             placeholder="Confirm password"
             required
             pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$"
