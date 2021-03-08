@@ -27,6 +27,8 @@ const choices = {
 };
 
 let computerChoice = '';
+let playerScoreNumber = 0;
+let computerScoreNumber = 0;
 
 // reset all selected icons
 function resetSelected() {
@@ -42,15 +44,33 @@ function computerRandomChoice() {
   computerChoice = options[computerChoiceNumber];
 }
 
-function checkResult() {
+function updateScore(playerChoice) {
+  if (playerChoice === computerChoice) {
+    resultText.textContent = "It's a tie.";
+  } else {
+    const choice = choices[playerChoice];
+    if (choice.defeats.indexOf(computerChoice) > -1) {
+      resultText.textContent = 'You won!';
+      playerScoreNumber++;
+      playerScoreEl.textContent = playerScoreNumber;
+    } else {
+      resultText.textContent = 'You lost';
+      computerScoreNumber++;
+      computerScoreEl.textContent = computerScoreNumber;
+    }
+  }
+}
+
+function checkResult(playerChoice) {
   resetSelected();
   computerRandomChoice();
   displayComputerChoice();
+  updateScore(playerChoice);
 }
 
 // passing player selection value and styling icons
 function select(playerChoice) {
-  checkResult();
+  checkResult(playerChoice);
   switch (playerChoice) {
     case 'rock':
       playerRock.classList.add('selected');
