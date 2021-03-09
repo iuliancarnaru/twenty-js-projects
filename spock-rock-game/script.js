@@ -37,6 +37,17 @@ function resetSelected() {
   });
 }
 
+function resetAll() {
+  let playerScoreNumber = 0;
+  let computerScoreNumber = 0;
+  playerScoreEl.textContent = playerScoreNumber;
+  computerScoreEl.textContent = computerScoreNumber;
+  playerChoiceEl.textContent = '';
+  computerChoiceEl.textContent = '';
+  resultText.textContent = '';
+  resetSelected();
+}
+
 // computer random choice
 function computerRandomChoice() {
   const options = ['rock', 'paper', 'scissors', 'lizard', 'spock'];
@@ -123,3 +134,6 @@ function displayComputerChoice() {
       break;
   }
 }
+
+// on plage load
+resetAll();
