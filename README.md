@@ -2,6 +2,8 @@
 
     1.Spock Rock Game - Confetti.js, Modules
 
+![Spock Rock Game](https://github.com/iuliancarnaru/twenty-js-projects/blob/main/spock-rock-game/assets/Screenshot%202021-03-09%20at%2015.13.07.png 'Snapshot')
+
     2.Quote Generator - Fetch, Async/Await, Quote API, CORS
 
 ![Quote Generator](https://github.com/iuliancarnaru/twenty-js-projects/blob/main/quote-generator/assets/Screenshot%202021-02-22%20at%2021.37.31.png 'Snapshot')
