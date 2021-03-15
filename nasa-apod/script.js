@@ -18,6 +18,31 @@ function updateDOM() {
     card.classList.add('card');
 
     // link
+    const link = document.createElement('a');
+    link.href = result.hdurl;
+    link.title = 'View full image';
+    link.target = '_blank';
+    link.setAttribute('rel', 'noopener noreferrer');
+
+    // image
+    const image = document.createElement('img');
+    image.src = result.url;
+    image.alt = 'NASA Picture of the Day';
+    image.loading = 'lazy';
+    image.classList.add('card-img-top');
+
+    // card body
+    const cardBody = document.createElement('div');
+    cardBody.classList.add('card-body');
+
+    // card title
+    const cardTitle = document.createElement('h5');
+    cardTitle.classList.add('card-title');
+    cardTitle.textContent = result.title;
+
+    // save text
+    const saveText = document.createElement('p');
+    saveText.classList.add('clickable');
   });
 }
 
