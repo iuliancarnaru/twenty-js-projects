@@ -58,8 +58,10 @@ function updateDOM() {
     date.textContent = result.date;
 
     // copyright
+    const copyrightResult =
+      result.copyright === undefined ? '' : result.copyright;
     const copyright = document.createElement('span');
-    copyright.textContent = ` ${result.copyright}`;
+    copyright.textContent = ` ${copyrightResult}`;
 
     // ----- append -----
 
